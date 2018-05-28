@@ -3,16 +3,17 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-#header, .footer {
+.header, #footer, .header a, #footer a {
   color: white;
 }
 
-#header {
-  background-image: image(url("resources/images/the-flatiron-building.png"));
+.header {
+  background-image: url(../images/the-flatiron-building.png);
 }
 
-.footer {
+#footer {
   background-color: dimgray;
+  text-align: left;
 }
 
 h1 {
@@ -29,6 +30,7 @@ h3 {
 
 a {
   font-size: 18px;
+  font-weight: bold;
 }
 
 p {
